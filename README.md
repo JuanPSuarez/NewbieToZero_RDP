@@ -25,3 +25,48 @@ What you would need:
 	• Desktop or Laptop 
 	• Ethernet cable 
 	• ZeroTierOne (free)!
+
+Here we should start installing the software neded in the linux machine:
+
+1. Install raspberry pi os lite (or any other distro that you like)
+2. Login set a user and pass (default credentials for rpi: pi / raspberry)
+
+Update and upgrade:
+	
+	$ sudo apt update
+	
+	$ sudo apt upgrade
+	
+3. Install ZeroTierOne:
+
+APT-install:
+
+ 	$ curl -s https://install.zerotier.com | sudo bash
+
+
+(Optional) Installing the snapstore:
+
+	$ sudo apt install snapd
+	
+Install zero tier with snap:
+
+	$ sudo snap install zerotier
+	  
+Join the network: 
+
+	$ zerotier-cli join #########
+	
+Check status: 
+
+	$ zerotier-cli status
+
+4. Install etherwake:
+APT-install:
+
+	$ sudo apt install etherwake
+	
+5. Check interfaces:
+Check the ip for wlan0 and eth0:
+
+	$ ifconfig
+
