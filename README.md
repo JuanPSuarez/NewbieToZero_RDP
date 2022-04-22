@@ -61,11 +61,13 @@ Check status:
 	$ zerotier-cli status
 
 4. Install etherwake:
+
 APT-install:
 
 	$ sudo apt install etherwake
 	
 5. Check interfaces:
+
 Check the ip for wlan0 and eth0:
 
 	$ ifconfig
