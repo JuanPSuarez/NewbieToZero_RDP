@@ -72,3 +72,9 @@ Check the ip for wlan0 and eth0:
 
 	$ ifconfig
 
+Now with everything installed, we now shall proceed with the configuration, you'll need:
+	• Mac-address of the machine to be conected.
+	• Rasperry Pi ip's: wireless (wlan0) and ethernet (eth0)
+	• Create a zero tier accound and network.
+
+
